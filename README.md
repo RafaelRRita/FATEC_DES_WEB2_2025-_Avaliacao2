@@ -21,6 +21,8 @@ A primeira página do sistema é a tela de **login**, onde o usuário deve infor
 
 - Caso as informações estejam corretas, o usuário é redirecionado para a **página inicial (home.php)**.
 - Se estiverem incorretas, uma mensagem de erro é exibida.
+- O acesso para o login e "admin" e a senha e "admin".
+![image](https://github.com/user-attachments/assets/1529f1c4-5d23-4d7c-a08d-c11b5969b297)
 
 ---
 
