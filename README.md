@@ -22,18 +22,23 @@ A primeira página do sistema é a tela de **login**, onde o usuário deve infor
 - Caso as informações estejam corretas, o usuário é redirecionado para a **página inicial (home.php)**.
 - Se estiverem incorretas, uma mensagem de erro é exibida.
 - O acesso para o login e "admin" e a senha e "admin".
+  
 ![image](https://github.com/user-attachments/assets/1529f1c4-5d23-4d7c-a08d-c11b5969b297)
 
 ---
+
 
 ## 🏠 2. Página Inicial (`home.php`)
 
 Após o login, o usuário acessa o painel principal, onde encontra **ícones ou botões de navegação** para as seguintes seções:
 
 - **Cadastrar Produto** – Envia o usuário para a página de cadastro.
-- **Listar Produtos** – Redireciona para a página que exibe todos os produtos cadastrados.
+- **Visualizar Produtos** – Redireciona para a página que exibe todos os produtos(artesanais) cadastrados.
 - **Remover Produtos** – Vai para a página de remoção de produtos (com confirmação).
 - **Logout** – Finaliza a sessão e retorna à tela de login.
+
+![image](https://github.com/user-attachments/assets/61fe1d33-d75c-4bc7-ae7e-2155d26367b5)
+
 
 ---
 
@@ -46,11 +51,14 @@ Permite o **cadastro de novos produtos** no banco de dados. O formulário inclui
 - Descrição
 - Categoria
 
-Após o envio, os dados são salvos no banco de dados e o usuário pode continuar cadastrando mais produtos ou voltar para o menu principal.
+Após o envio, os dados são salvos no banco de dados (artesanato_db) e o usuário pode continuar cadastrando mais produtos ou voltar para o menu principal.
+
+![image](https://github.com/user-attachments/assets/e2727a91-31b0-4267-94a1-1488f560d6d4)
+
 
 ---
 
-## 📋 4. Página de Listagem (`listar_produtos.php`)
+## 📋 4. Página de Listagem (`listar.php`)
 
 Exibe uma **tabela com todos os produtos cadastrados**, incluindo:
 
@@ -61,6 +69,9 @@ Exibe uma **tabela com todos os produtos cadastrados**, incluindo:
 - Categoria
 
 Cada item é mostrado de forma clara e organizada usando o estilo do Bootstrap.
+
+![image](https://github.com/user-attachments/assets/36197519-627b-4b48-ba26-3ad10cf50bef)
+
 
 ---
 
