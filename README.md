@@ -82,6 +82,9 @@ Mostra uma lista semelhante à de listagem, porém com um **botão "Remover" ao 
 - Ao clicar em "Remover", o sistema pede uma **confirmação**.
 - Após a confirmação, o produto é excluído do banco de dados.
 
+![image](https://github.com/user-attachments/assets/9d59b9b2-9ced-4e11-a0f9-3b02290cd908)
+
+
 ---
 
 ## 🚪 6. Logout (`logout.php`)
@@ -99,6 +102,4 @@ Finaliza a sessão do usuário logado, retornando à tela de login e invalidando
 - Sessões PHP para autenticação
 
 ---
-
-## 📁 Estrutura de Arquivos (resumo)
 
